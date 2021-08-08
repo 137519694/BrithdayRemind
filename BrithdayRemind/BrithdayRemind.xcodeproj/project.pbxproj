@@ -56,6 +56,7 @@
 		00FAB83026C0054D00A92EDD /* BrithdayRemind */ = {
 			isa = PBXGroup;
 			children = (
+				00FAB84826C0071C00A92EDD /* Class */,
 				00FAB83126C0054D00A92EDD /* AppDelegate.swift */,
 				00FAB83326C0054D00A92EDD /* SceneDelegate.swift */,
 				00FAB83526C0054D00A92EDD /* ContentView.swift */,
@@ -73,6 +74,37 @@
 				00FAB83A26C0054E00A92EDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00FAB84826C0071C00A92EDD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB84B26C0071C00A92EDD /* Main */,
+				00FAB84A26C0071C00A92EDD /* Setting */,
+				00FAB84926C0071C00A92EDD /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		00FAB84926C0071C00A92EDD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		00FAB84A26C0071C00A92EDD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		00FAB84B26C0071C00A92EDD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
