@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00FAB83226C0054D00A92EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB83126C0054D00A92EDD /* AppDelegate.swift */; };
-		00FAB83426C0054D00A92EDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB83326C0054D00A92EDD /* SceneDelegate.swift */; };
-		00FAB83626C0054D00A92EDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB83526C0054D00A92EDD /* ContentView.swift */; };
-		00FAB83826C0054E00A92EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB83726C0054E00A92EDD /* Assets.xcassets */; };
-		00FAB83B26C0054E00A92EDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB83A26C0054E00A92EDD /* Preview Assets.xcassets */; };
-		00FAB83E26C0054E00A92EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB83C26C0054E00A92EDD /* LaunchScreen.storyboard */; };
+		00FAB85926C286B500A92EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB85826C286B500A92EDD /* AppDelegate.swift */; };
+		00FAB85B26C286B500A92EDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB85A26C286B500A92EDD /* SceneDelegate.swift */; };
+		00FAB85D26C286B500A92EDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB85C26C286B500A92EDD /* ContentView.swift */; };
+		00FAB86026C286B500A92EDD /* BrithdayRemind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB85E26C286B500A92EDD /* BrithdayRemind.xcdatamodeld */; };
+		00FAB86226C286B800A92EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB86126C286B800A92EDD /* Assets.xcassets */; };
+		00FAB86526C286B800A92EDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB86426C286B800A92EDD /* Preview Assets.xcassets */; };
+		00FAB86826C286B800A92EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB86626C286B800A92EDD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00FAB82E26C0054D00A92EDD /* BrithdayRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrithdayRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00FAB83126C0054D00A92EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00FAB83326C0054D00A92EDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00FAB83526C0054D00A92EDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00FAB83726C0054E00A92EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00FAB83A26C0054E00A92EDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		00FAB83D26C0054E00A92EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00FAB83F26C0054E00A92EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FAB85526C286B500A92EDD /* BrithdayRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrithdayRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FAB85826C286B500A92EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00FAB85A26C286B500A92EDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00FAB85C26C286B500A92EDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00FAB85F26C286B500A92EDD /* BrithdayRemind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrithdayRemind.xcdatamodel; sourceTree = "<group>"; };
+		00FAB86126C286B800A92EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00FAB86426C286B800A92EDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00FAB86726C286B800A92EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00FAB86926C286B800A92EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00FAB82B26C0054D00A92EDD /* Frameworks */ = {
+		00FAB85226C286B500A92EDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,70 +39,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00FAB82526C0054D00A92EDD = {
+		00FAB84C26C286B400A92EDD = {
 			isa = PBXGroup;
 			children = (
-				00FAB83026C0054D00A92EDD /* BrithdayRemind */,
-				00FAB82F26C0054D00A92EDD /* Products */,
+				00FAB85726C286B500A92EDD /* BrithdayRemind */,
+				00FAB85626C286B500A92EDD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00FAB82F26C0054D00A92EDD /* Products */ = {
+		00FAB85626C286B500A92EDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00FAB82E26C0054D00A92EDD /* BrithdayRemind.app */,
+				00FAB85526C286B500A92EDD /* BrithdayRemind.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00FAB83026C0054D00A92EDD /* BrithdayRemind */ = {
+		00FAB85726C286B500A92EDD /* BrithdayRemind */ = {
 			isa = PBXGroup;
 			children = (
-				00FAB84826C0071C00A92EDD /* Class */,
-				00FAB83126C0054D00A92EDD /* AppDelegate.swift */,
-				00FAB83326C0054D00A92EDD /* SceneDelegate.swift */,
-				00FAB83526C0054D00A92EDD /* ContentView.swift */,
-				00FAB83726C0054E00A92EDD /* Assets.xcassets */,
-				00FAB83C26C0054E00A92EDD /* LaunchScreen.storyboard */,
-				00FAB83F26C0054E00A92EDD /* Info.plist */,
-				00FAB83926C0054E00A92EDD /* Preview Content */,
+				00FAB86F26C286DE00A92EDD /* Class */,
+				00FAB85826C286B500A92EDD /* AppDelegate.swift */,
+				00FAB85A26C286B500A92EDD /* SceneDelegate.swift */,
+				00FAB85C26C286B500A92EDD /* ContentView.swift */,
+				00FAB86126C286B800A92EDD /* Assets.xcassets */,
+				00FAB86626C286B800A92EDD /* LaunchScreen.storyboard */,
+				00FAB86926C286B800A92EDD /* Info.plist */,
+				00FAB85E26C286B500A92EDD /* BrithdayRemind.xcdatamodeld */,
+				00FAB86326C286B800A92EDD /* Preview Content */,
 			);
 			path = BrithdayRemind;
 			sourceTree = "<group>";
 		};
-		00FAB83926C0054E00A92EDD /* Preview Content */ = {
+		00FAB86326C286B800A92EDD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				00FAB83A26C0054E00A92EDD /* Preview Assets.xcassets */,
+				00FAB86426C286B800A92EDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		00FAB84826C0071C00A92EDD /* Class */ = {
+		00FAB86F26C286DE00A92EDD /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				00FAB84B26C0071C00A92EDD /* Main */,
-				00FAB84A26C0071C00A92EDD /* Setting */,
-				00FAB84926C0071C00A92EDD /* Tools */,
+				00FAB87226C286DE00A92EDD /* Main */,
+				00FAB87026C286DE00A92EDD /* Tools */,
+				00FAB87126C286DE00A92EDD /* Setting */,
 			);
 			path = Class;
 			sourceTree = "<group>";
 		};
-		00FAB84926C0071C00A92EDD /* Tools */ = {
+		00FAB87026C286DE00A92EDD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		00FAB84A26C0071C00A92EDD /* Setting */ = {
+		00FAB87126C286DE00A92EDD /* Setting */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Setting;
 			sourceTree = "<group>";
 		};
-		00FAB84B26C0071C00A92EDD /* Main */ = {
+		00FAB87226C286DE00A92EDD /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -110,13 +113,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00FAB82D26C0054D00A92EDD /* BrithdayRemind */ = {
+		00FAB85426C286B500A92EDD /* BrithdayRemind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00FAB84226C0054E00A92EDD /* Build configuration list for PBXNativeTarget "BrithdayRemind" */;
+			buildConfigurationList = 00FAB86C26C286B800A92EDD /* Build configuration list for PBXNativeTarget "BrithdayRemind" */;
 			buildPhases = (
-				00FAB82A26C0054D00A92EDD /* Sources */,
-				00FAB82B26C0054D00A92EDD /* Frameworks */,
-				00FAB82C26C0054D00A92EDD /* Resources */,
+				00FAB85126C286B500A92EDD /* Sources */,
+				00FAB85226C286B500A92EDD /* Frameworks */,
+				00FAB85326C286B500A92EDD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,24 +127,24 @@
 			);
 			name = BrithdayRemind;
 			productName = BrithdayRemind;
-			productReference = 00FAB82E26C0054D00A92EDD /* BrithdayRemind.app */;
+			productReference = 00FAB85526C286B500A92EDD /* BrithdayRemind.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00FAB82626C0054D00A92EDD /* Project object */ = {
+		00FAB84D26C286B400A92EDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					00FAB82D26C0054D00A92EDD = {
+					00FAB85426C286B500A92EDD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 00FAB82926C0054D00A92EDD /* Build configuration list for PBXProject "BrithdayRemind" */;
+			buildConfigurationList = 00FAB85026C286B400A92EDD /* Build configuration list for PBXProject "BrithdayRemind" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,47 +152,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 00FAB82526C0054D00A92EDD;
-			productRefGroup = 00FAB82F26C0054D00A92EDD /* Products */;
+			mainGroup = 00FAB84C26C286B400A92EDD;
+			productRefGroup = 00FAB85626C286B500A92EDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00FAB82D26C0054D00A92EDD /* BrithdayRemind */,
+				00FAB85426C286B500A92EDD /* BrithdayRemind */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00FAB82C26C0054D00A92EDD /* Resources */ = {
+		00FAB85326C286B500A92EDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FAB83E26C0054E00A92EDD /* LaunchScreen.storyboard in Resources */,
-				00FAB83B26C0054E00A92EDD /* Preview Assets.xcassets in Resources */,
-				00FAB83826C0054E00A92EDD /* Assets.xcassets in Resources */,
+				00FAB86826C286B800A92EDD /* LaunchScreen.storyboard in Resources */,
+				00FAB86526C286B800A92EDD /* Preview Assets.xcassets in Resources */,
+				00FAB86226C286B800A92EDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00FAB82A26C0054D00A92EDD /* Sources */ = {
+		00FAB85126C286B500A92EDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FAB83226C0054D00A92EDD /* AppDelegate.swift in Sources */,
-				00FAB83426C0054D00A92EDD /* SceneDelegate.swift in Sources */,
-				00FAB83626C0054D00A92EDD /* ContentView.swift in Sources */,
+				00FAB85926C286B500A92EDD /* AppDelegate.swift in Sources */,
+				00FAB86026C286B500A92EDD /* BrithdayRemind.xcdatamodeld in Sources */,
+				00FAB85B26C286B500A92EDD /* SceneDelegate.swift in Sources */,
+				00FAB85D26C286B500A92EDD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00FAB83C26C0054E00A92EDD /* LaunchScreen.storyboard */ = {
+		00FAB86626C286B800A92EDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00FAB83D26C0054E00A92EDD /* Base */,
+				00FAB86726C286B800A92EDD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -197,7 +201,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00FAB84026C0054E00A92EDD /* Debug */ = {
+		00FAB86A26C286B800A92EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +262,7 @@
 			};
 			name = Debug;
 		};
-		00FAB84126C0054E00A92EDD /* Release */ = {
+		00FAB86B26C286B800A92EDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +317,7 @@
 			};
 			name = Release;
 		};
-		00FAB84326C0054E00A92EDD /* Debug */ = {
+		00FAB86D26C286B800A92EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -334,7 +338,7 @@
 			};
 			name = Debug;
 		};
-		00FAB84426C0054E00A92EDD /* Release */ = {
+		00FAB86E26C286B800A92EDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,25 +362,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00FAB82926C0054D00A92EDD /* Build configuration list for PBXProject "BrithdayRemind" */ = {
+		00FAB85026C286B400A92EDD /* Build configuration list for PBXProject "BrithdayRemind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00FAB84026C0054E00A92EDD /* Debug */,
-				00FAB84126C0054E00A92EDD /* Release */,
+				00FAB86A26C286B800A92EDD /* Debug */,
+				00FAB86B26C286B800A92EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00FAB84226C0054E00A92EDD /* Build configuration list for PBXNativeTarget "BrithdayRemind" */ = {
+		00FAB86C26C286B800A92EDD /* Build configuration list for PBXNativeTarget "BrithdayRemind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00FAB84326C0054E00A92EDD /* Debug */,
-				00FAB84426C0054E00A92EDD /* Release */,
+				00FAB86D26C286B800A92EDD /* Debug */,
+				00FAB86E26C286B800A92EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00FAB85E26C286B500A92EDD /* BrithdayRemind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00FAB85F26C286B500A92EDD /* BrithdayRemind.xcdatamodel */,
+			);
+			currentVersion = 00FAB85F26C286B500A92EDD /* BrithdayRemind.xcdatamodel */;
+			path = BrithdayRemind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 00FAB82626C0054D00A92EDD /* Project object */;
+	rootObject = 00FAB84D26C286B400A92EDD /* Project object */;
 }

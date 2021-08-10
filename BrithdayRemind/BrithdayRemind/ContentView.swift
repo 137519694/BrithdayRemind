@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  BrithdayRemind
 //
-//  Created by 王闯 on 2021/8/8.
+//  Created by 王闯 on 2021/8/10.
 //
 
 import SwiftUI
